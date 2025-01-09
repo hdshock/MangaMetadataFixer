@@ -1,5 +1,5 @@
 # Manga Metadata Fixer
-Python scripts that help bridge the gap between .CBZ Manga automatically downloaded from FMD2 to be indexed by Komf for Kavita.
+These are some Python scripts that help bridge the gap between .CBZ Manga automatically downloaded from FMD2 to be indexed by Komf for Kavita.
 
 Purpose:
 The Manga Metadata Fixer is a Python script designed to automatically add basic metadata to your manga library by generating ComicInfo.xml files for .cbz archives. It works seamlessly with manga management tools like Komf and Kavita, bridging the gap for missing metadata in your library.
