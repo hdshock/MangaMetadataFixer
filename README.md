@@ -25,7 +25,7 @@ Installation:
 
 
 Setup:
-The script will look for a file called Manga Library Location in the same directory to determine the path to your manga library. If the file does not exist, it will prompt you to enter the directory path.
+The script will look for a file called "Manga Library Location" in the same directory to determine the path to your manga library. If the file does not exist, it will prompt you to enter the directory path.
 The script uses an SQLite database (processed_files.db) to track which files have been processed, preventing redundant operations.
 Usage:
 Place the script in any directory.
