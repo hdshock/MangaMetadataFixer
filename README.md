@@ -38,7 +38,7 @@ If it's the first run, the script will initialize the database and begin scannin
 If the database already exists, the script will skip previously processed files and only process new ones.
 The script will display a progress bar showing the percentage of files processed.
 
-The main script will loop and scan every 5 minutes, where the database script will close when finished.
+The main script will loop and scan every 5 minutes, where the "First Run" script will close when finished.  Both scripts are capable of building the database, just one is built for speed and the other better suited to monitor continously.
 
 How It Works:
 The script scans all .cbz files in your manga library.
