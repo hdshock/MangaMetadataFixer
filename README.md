@@ -1,8 +1,8 @@
 # Manga Metadata Fixer
-Python scripts that help bridge the gap between manga downloaded from FMD to be indexed by Komf for Kavita.
+Python scripts that help bridge the gap between .CBZ Manga automatically downloaded from FMD2 to be indexed by Komf for Kavita.
 
 Purpose:
-The Manga Metadata Fixer is a Python script designed to automatically add metadata to your manga library by generating ComicInfo.xml files for .cbz archives. It works seamlessly with manga management tools like Komf and Kavita, bridging the gap for missing metadata in your library.
+The Manga Metadata Fixer is a Python script designed to automatically add basic metadata to your manga library by generating ComicInfo.xml files for .cbz archives. It works seamlessly with manga management tools like Komf and Kavita, bridging the gap for missing metadata in your library.
 
 The script scans your manga library, processes .cbz files, and ensures that every manga archive has a ComicInfo.xml file containing the series name, title, and other necessary metadata.
 
@@ -47,11 +47,11 @@ It then updates the SQLite database to mark the file as processed.
 The program supports large libraries and can process files in batches to improve performance.
 
 Notes:
-Log File: All actions are logged in a file called process_log.txt that lives in the directory of the script.
+Log File: All actions are logged in a file called process_log.txt that lives in the directory of the script.  This log file will get deleted and recreated if it gets too large
 
 Database: The script uses an SQLite database (processed_files.db) to track processed files and ensure they aren't processed again.
 Journal Files: If the script is interrupted unexpectedly, the journal files (.db-journal) may be left behind. The script will clean these up at the start to prevent issues.
 
 License:
-This script is free to use for personal purposes. It is provided "as is" with no warranty or guarantee.
+This script is free to use for personal purposes. It is provided "as is" with no warranty or guarantee.  When using tools like this with Komf/Kavita/FMD2 together, a lot can happen, so I urge you to test this before letting it loose on your main manga library.  (You can always just delete or change the location file in the script directory.)
 
