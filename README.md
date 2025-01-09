@@ -32,7 +32,7 @@ Place the script in any directory.
 
 Run the script in the terminal or command prompt.  
 
-****IF YOU HAVE NEVER RAN THE SCRIPT BEFORE USE THE "FIRST RUN" SCRIPT TO BUILD YOUR DATABASE (IT'S MUCH FASTER)****
+****IF YOU HAVE NEVER RUN THE SCRIPT BEFORE USE THE "FIRST RUN" SCRIPT TO BUILD YOUR DATABASE (IT'S MUCH FASTER)****
 
 If it's the first run, the script will initialize the database and begin scanning your manga library.
 If the database already exists, the script will skip previously processed files and only process new ones.
